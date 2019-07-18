@@ -1,0 +1,6 @@
+#!/bin/bash
+
+deps_path=$3
+index=$4
+
+cp $(dirname "$0")/../files/* "${deps_path}/${index}"
